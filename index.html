@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Real Estate Agency | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <span>N</span>
+            <div>
+                <h2>NEHA</h2>
+                <small>REAL ESTATE AGENCY</small>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+<!-- Hero Slider -->
+
+<section class="hero">
+
+    <div class="slide active">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80">
+        <div class="hero-content">
+            <p>WELCOME TO NEHA REAL ESTATE</p>
+            <h1>Find a Place<br>You'll Love to Call Home</h1>
+            <p class="hero-text">
+                Discover beautiful homes, premium properties and investment opportunities.
+            </p>
+            <a href="properties.html" class="btn">Explore Properties</a>
+        </div>
+    </div>
+
+    <div class="slide">
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80">
+        <div class="hero-content">
+            <p>PREMIUM LIVING</p>
+            <h1>Modern Homes<br>Made for Your Lifestyle</h1>
+            <p class="hero-text">
+                Experience comfort, elegance and modern architecture.
+            </p>
+            <a href="properties.html" class="btn">View Properties</a>
+        </div>
+    </div>
+
+    <div class="slide">
+        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=80">
+        <div class="hero-content">
+            <p>SMART INVESTMENTS</p>
+            <h1>Invest Today<br>Build Your Tomorrow</h1>
+            <p class="hero-text">
+                Find the right property for your future.
+            </p>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </div>
+
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+    <button class="next" onclick="changeSlide(1)">❯</button>
+
+    <div class="dots">
+        <span class="dot active" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+</section>
+
+<!-- Welcome -->
+
+<section class="section">
+    <div class="section-title">
+        <p>WHY CHOOSE US</p>
+        <h2>More Than Just a Property</h2>
+        <span></span>
+    </div>
+
+    <div class="features">
+
+        <div class="feature-card">
+            <div class="icon">🏠</div>
+            <h3>Beautiful Properties</h3>
+            <p>
+                Carefully selected residential and commercial properties
+                designed for modern living.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🤝</div>
+            <h3>Trusted Service</h3>
+            <p>
+                We provide transparent and professional real estate
+                assistance to every customer.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">💎</div>
+            <h3>Premium Experience</h3>
+            <p>
+                Our goal is to make your property buying and selling
+                experience simple and stress-free.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Featured Property -->
+
+<section class="featured">
+    <div class="featured-image">
+        <img src="abt2.jpg">
+    </div>
+
+    <div class="featured-content">
+        <p class="gold-text">FEATURED PROPERTY</p>
+        <h2>Elegant Family Villa</h2>
+        <p>
+            A beautiful modern villa designed for peaceful family living.
+            Spacious rooms, stylish interiors and a relaxing outdoor space.
+        </p>
+
+        <div class="property-info">
+            <span>🛏 4 Beds</span>
+            <span>🛁 3 Baths</span>
+            <span>📐 2,500 Sq.Ft</span>
+        </div>
+
+        <a href="properties.html" class="btn dark-btn">View Details</a>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer>
+    <div class="footer-content">
+        <div>
+            <h2>NEHA</h2>
+            <p>REAL ESTATE AGENCY</p>
+            <p>Building dreams, one property at a time.</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="properties.html">Properties</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>📍 Andhra Pradesh, India</p>
+            <p>📞 +91 98765 43210</p>
+            <p>✉ neha@realestate.com</p>
+        </div>
+    </div>
+
+    <div class="copyright">
+        © 2026 Neha Real Estate Agency | Designed by B. Neha
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

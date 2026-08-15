@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Real Estate Agency | Properties</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <span>N</span>
+            <div>
+                <h2>NEHA</h2>
+                <small>REAL ESTATE AGENCY</small>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="properties.html" class="active">Properties</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+<section class="page-banner">
+    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80">
+    <div>
+        <p>DISCOVER YOUR NEXT HOME</p>
+        <h1>Our Properties</h1>
+    </div>
+</section>
+
+<section class="section">
+
+    <div class="section-title">
+        <p>PROPERTY COLLECTION</p>
+        <h2>Find Your Perfect Property</h2>
+        <span></span>
+    </div>
+
+    <div class="filter-buttons">
+        <button onclick="filterProperties('all')">All</button>
+        <button onclick="filterProperties('house')">Houses</button>
+        <button onclick="filterProperties('villa')">Villas</button>
+        <button onclick="filterProperties('apartment')">Apartments</button>
+    </div>
+
+    <div class="property-grid">
+
+        <div class="property-card house">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80">
+            <div class="property-details">
+                <span class="tag">FOR SALE</span>
+                <h3>Modern Family House</h3>
+                <p>📍 Hyderabad, Telangana</p>
+                <div class="property-bottom">
+                    <strong>₹85 Lakhs</strong>
+                    <span>3 Beds · 2 Baths</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="property-card villa">
+            <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=800&q=80">
+            <div class="property-details">
+                <span class="tag">FOR SALE</span>
+                <h3>Luxury Green Villa</h3>
+                <p>📍 Bengaluru, Karnataka</p>
+                <div class="property-bottom">
+                    <strong>₹1.8 Crore</strong>
+                    <span>4 Beds · 4 Baths</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="property-card apartment">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80">
+            <div class="property-details">
+                <span class="tag">FOR RENT</span>
+                <h3>Elegant City Apartment</h3>
+                <p>📍 Vijayawada, Andhra Pradesh</p>
+                <div class="property-bottom">
+                    <strong>₹25,000/mo</strong>
+                    <span>3 Beds · 2 Baths</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="property-card house">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80">
+            <div class="property-details">
+                <span class="tag">FOR SALE</span>
+                <h3>Contemporary Home</h3>
+                <p>📍 Visakhapatnam, Andhra Pradesh</p>
+                <div class="property-bottom">
+                    <strong>₹72 Lakhs</strong>
+                    <span>3 Beds · 3 Baths</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="property-card villa">
+            <img src="villa7.jpg">
+            <div class="property-details">
+                <span class="tag">FOR SALE</span>
+                <h3>Premium Modern Villa</h3>
+                <p>📍 Chennai, Tamil Nadu</p>
+                <div class="property-bottom">
+                    <strong>₹2.2 Crore</strong>
+                    <span>5 Beds · 4 Baths</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="property-card apartment">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80">
+            <div class="property-details">
+                <span class="tag">FOR RENT</span>
+                <h3>Luxury Apartment</h3>
+                <p>📍 Hyderabad, Telangana</p>
+                <div class="property-bottom">
+                    <strong>₹35,000/mo</strong>
+                    <span>3 Beds · 3 Baths</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <div class="copyright">
+        © 2026 Neha Real Estate Agency | Designed by B. Neha
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

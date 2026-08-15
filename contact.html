@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Real Estate Agency | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <span>N</span>
+            <div>
+                <h2>NEHA</h2>
+                <small>REAL ESTATE AGENCY</small>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+    </nav>
+</header>
+
+<section class="page-banner">
+    <img src="ima.jpg">
+    <div>
+        <p>LET'S CONNECT</p>
+        <h1>Contact Us</h1>
+    </div>
+</section>
+
+<section class="contact-section">
+
+    <div class="contact-info">
+
+        <p class="gold-text">GET IN TOUCH</p>
+        <h2>Let's Find Your<br>Dream Property</h2>
+
+        <p>
+            Have a question about a property? Contact Neha Real Estate
+            Agency and our team will be happy to help.
+        </p>
+
+        <div class="contact-item">
+            <span>📍</span>
+            <div>
+                <h4>Our Location</h4>
+                <p>Andhra Pradesh, India</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <span>📞</span>
+            <div>
+                <h4>Phone</h4>
+                <p>+91 98765 43210</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <span>✉</span>
+            <div>
+                <h4>Email</h4>
+                <p>neha@realestate.com</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact-form">
+
+        <h2>Send Us a Message</h2>
+
+        <form onsubmit="submitForm(event)">
+
+            <div class="form-row">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+
+            <select id="interest" required>
+                <option value="">Interested In</option>
+                <option>Buying a Property</option>
+                <option>Selling a Property</option>
+                <option>Rental Property</option>
+                <option>Investment</option>
+            </select>
+
+            <textarea id="message" rows="6"
+                placeholder="Write your message..." required></textarea>
+
+            <button type="submit" class="btn dark-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section class="contact-image">
+    <img src="ima1.jpg">
+</section>
+
+<footer>
+    <div class="copyright">
+        © 2026 Neha Real Estate Agency | Designed by B. Neha
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
